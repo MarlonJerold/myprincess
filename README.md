@@ -34,7 +34,7 @@ public class Application {
 - [x] Sistema de rotas
 - [x] Parâmetros de rota
 - [x] Sistema de logs
-- [ ] Sistema de configuração
+- [x] Sistema de configuração
 - [ ] Ciclo de vida da aplicação
 - [ ] Ambiente de desenvolvimento e produção
 
