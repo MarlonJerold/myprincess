@@ -2,6 +2,8 @@ package com.myprincess.server;
 
 import com.myprincess.PrincessBanner;
 import com.myprincess.Router.Router;
+import com.myprincess.configuration.ConfigurationLoader;
+import com.myprincess.configuration.ServerConfig;
 import com.myprincess.logs.PrincessLog;
 import com.myprincess.rest.context.Context;
 import com.sun.net.httpserver.HttpServer;
@@ -19,7 +21,12 @@ public class PrincessServer {
 
     public void start() throws Exception {
 
-        HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
+        ServerConfig config = ConfigurationLoader.loadServerConfig();
+
+        HttpServer server = HttpServer.create(
+                new InetSocketAddress(config.getPort()),
+                0
+        );
 
         server.createContext("/", exchange -> {
 

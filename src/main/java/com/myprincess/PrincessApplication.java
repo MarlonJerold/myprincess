@@ -1,6 +1,8 @@
 package com.myprincess;
 
 import com.myprincess.Router.Router;
+import com.myprincess.configuration.ConfigurationLoader;
+import com.myprincess.configuration.ServerConfig;
 import com.myprincess.logs.PrincessLog;
 import com.myprincess.server.PrincessServer;
 
@@ -35,7 +37,10 @@ public class PrincessApplication {
                 }
             }
 
-            int port = 8080;
+            ServerConfig config = ConfigurationLoader.loadServerConfig();
+
+            int port = config.getPort();
+
             PrincessServer server = new PrincessServer(router);
             server.start();
 
