@@ -1,5 +1,8 @@
 # Princess Framework 👑🐱
 
+<img width="1693" height="598" alt="image" src="https://github.com/user-attachments/assets/19610168-2cdf-430c-ba13-e6fa22986db1" />
+
+
 Princess é um mini-framework Java inspirado na simplicidade de frameworks modernos, criado com o objetivo de estudar conceitos internos de desenvolvimento web e construção de frameworks.
 
 Atualmente o projeto está em desenvolvimento e busca oferecer uma experiência simples para criação de aplicações Java com configuração mínima.
