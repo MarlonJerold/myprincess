@@ -10,6 +10,8 @@ O objetivo do Princess é servir como um laboratório para explorar conceitos ut
 
 ## Hello World
 
+Atualmente, você consegue criar sistemas de rotas da seguinte forma, além de facilidade na inicialização do projeto de sua aplicação web.
+
 ```java
 public class Application {
 
@@ -37,77 +39,3 @@ public class Application {
 - [x] Sistema de configuração
 - [ ] Ciclo de vida da aplicação
 - [ ] Ambiente de desenvolvimento e produção
-
-### Dependency Injection
-
-- [ ] Injeção de dependências
-- [ ] Container IoC
-- [ ] Escopos (Singleton, Prototype)
-- [ ] Injeção por construtor
-- [ ] Injeção por campo
-- [ ] Injeção por interface
-
-### Web
-
-- [ ] Middlewares
-- [ ] Filtros de requisição
-- [ ] Interceptadores
-- [ ] Tratamento global de exceções
-- [ ] Sistema de validação
-- [ ] Upload de arquivos
-- [ ] Download de arquivos
-- [ ] Cookies
-- [ ] Sessões
-
-### REST API
-
-- [ ] Serialização JSON automática
-- [ ] Desserialização automática
-- [ ] Conversão de objetos para JSON
-- [ ] Conversão de JSON para objetos
-- [ ] Suporte a DTOs
-- [ ] Negociação de conteúdo
-
-
-### Banco de Dados
-
-- [ ] Gerenciamento de conexões
-- [ ] Query Builder
-- [ ] ORM básico
-- [ ] Migrations
-- [ ] Repositórios automáticos
-- [ ] Transações
-
-### Segurança
-
-- [ ] Autenticação
-- [ ] Autorização
-- [ ] JWT
-- [ ] Criptografia de senhas
-- [ ] Controle de CORS
-- [ ] Rate Limiting
-
-### Observabilidade
-
-- [ ] Logs estruturados
-- [ ] Níveis de log
-- [ ] Métricas
-- [ ] Health Checks
-- [ ] Monitoramento de rotas
-- [ ] Tempo de resposta
-
-### Performance
-
-- [ ] Pool de threads
-- [ ] Cache em memória
-- [ ] Compressão GZIP
-- [ ] Benchmark interno
-- [ ] Hot Reload
-
-### Arquitetura
-
-- [ ] Descoberta automática de componentes
-- [ ] Scanner de classes
-- [ ] Sistema de plugins
-- [ ] Módulos independentes
-- [ ] Eventos da aplicação
